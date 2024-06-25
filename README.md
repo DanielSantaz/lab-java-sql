@@ -35,29 +35,38 @@ Once you finish the assignment, submit a URL link to your repository or your pul
 | Maria Charlotte | Homemade Art Hacks          | 1002       | 193   |
 | Gemma Alcocer   | Refinishing Wood Floors     | 1571       | 7542  |
 
+| author   ID | Author          |   | Author ID | title                       | word count | views |        
+|-------------|-----------------|---|-----------|-----------------------------|------------|-------|
+| 1           | Maria Charlotte |   | 1         | Best Paint Colors           | 814        | 14    |
+| 2           | Juan Perez      |   | 2         | Small Space Decorating Tips | 1146       | 221   |
+| 3           | Gemma Alcocer   |   | 1         | Hot Accessories             | 986        | 105   |
+|             |                 |   | 1         | Mixing Textures             | 765        | 22    |
+|             |                 |   | 2         | Kitchen Refresh             | 1242       | 307   |
+|             |                 |   | 1         | Homemade Art Hacks          | 1002       | 193   |
+|             |                 |   | 3         | Refinishing Wood Floors     | 1571       | 7542  |
+
 <br>
 
 2.  Normalize the following airline database and write the DDL scripts to create the database tables:
+3. GOING TO NORMALIZE HERE.
 
-| Customer Name    | Customer Status | Flight Number | Aircraft    | Total Aircraft Seats | Flight Mileage | Total Customer Mileage |
-| ---------------- | --------------- | ------------- | ----------- | -------------------- | -------------- | ---------------------- |
-| Agustine Riviera | Silver          | DL143         | Boeing 747  | 400                  | 135            | 115235                 |
-| Agustine Riviera | Silver          | DL122         | Airbus A330 | 236                  | 4370           | 115235                 |
-| Alaina Sepulvida | None            | DL122         | Airbus A330 | 236                  | 4370           | 6008                   |
-| Agustine Riviera | Silver          | DL143         | Boeing 747  | 400                  | 135            | 115235                 |
-| Tom Jones        | Gold            | DL122         | Airbus A330 | 236                  | 4370           | 205767                 |
-| Tom Jones        | Gold            | DL53          | Boeing 777  | 264                  | 2078           | 205767                 |
-| Agustine Riviera | Silver          | DL143         | Boeing 747  | 400                  | 135            | 115235                 |
-| Sam Rio          | None            | DL143         | Boeing 747  | 400                  | 135            | 2653                   |
-| Agustine Riviera | Silver          | DL143         | Boeing 747  | 400                  | 135            | 115235                 |
-| Tom Jones        | Gold            | DL222         | Boeing 777  | 264                  | 1765           | 205767                 |
-| Jessica James    | Silver          | DL143         | Boeing 747  | 400                  | 135            | 127656                 |
-| Sam Rio          | None            | DL143         | Boeing 747  | 400                  | 135            | 2653                   |
-| Ana Janco        | Silver          | DL222         | Boeing 777  | 264                  | 1765           | 136773                 |
-| Jennifer Cortez  | Gold            | DL222         | Boeing 777  | 264                  | 1765           | 300582                 |
-| Jessica James    | Silver          | DL122         | Airbus A330 | 236                  | 4370           | 127656                 |
-| Sam Rio          | None            | DL37          | Boeing 747  | 400                  | 531            | 2653                   |
-| Christian Janco  | Silver          | DL222         | Boeing 777  | 264                  | 1765           | 14642                  |
+| Customer Name    | cID | Customer Status | Total Customer Mileage |   | Aircraft    | Aircraft ID | Aircraft Seats |     | cID | Flight Number | Aircraft ID | Flight Mileage |
+|------------------|-----|-----------------|------------------------|---|-------------|-------------|----------------|-----|-----|---------------|-------------|----------------|
+| Agustine Riviera | 1   | Silver          | 115235                 |   | Boeing 747  | 1           | 400            |     | 1   | DL143         | 1           | 135            |
+| Alaina Sepulvida | 2   | None            | 6008                   |   | Airbus A330 | 2           | 236            |     | 1   | DL122         | 2           | 4370           |
+| Tom Jones        | 3   | Gold            | 205767                 |   | Boeing 777  | 3           | 264            |     | 2   | DL122         | 2           | 4370           |
+| Sam Rio          | 4   | None            | 2653                   |   |             |             |                |     | 3   | DL122         | 2           | 4370           |
+| Jessica James    | 5   | Silver          | 127656                 |   |             |             |                |     | 3   | DL53          | 3           | 2078           |
+| Ana Janco        | 6   | Silver          | 136773                 |   |             |             |                |     | 4   | DL143         | 1           | 135            |
+| Jennifer Cortez  | 7   | Gold            | 300582                 |   |             |             |                |     | 3   | DL222         | 3           | 1765           |
+| Christian Janco  | 8   | Silver          | 14642                  |   |             |             |                |     | 5   | DL143         | 1           | 135            |
+|                  |     |                 |                        |   |             |             |                |     | 6   | DL222         | 3           | 1765           |
+|                  |     |                 |                        |   |             |             |                |     | 7   | DL222         | 3           | 1765           |
+|                  |     |                 |                        |   |             |             |                |     | 5   | DL122         | 2           | 4370           |
+|                  |     |                 |                        |   |             |             |                |     | 4   | DL37          | 1           | 531            |
+|                  |     |                 |                        |   |             |             |                |     | 8   | DL222         | 3           | 1765           |
+ Feel Satisfied with this normalization.
+       
 
 <br>
 
